@@ -13,8 +13,8 @@ from flask import Flask, request
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 ADMIN_CHAT_ID = int(os.getenv("ADMIN_CHAT_ID", "0"))
 
-REG_LINK = "https://u888h8.com?f=5051627"
-WEBAPP_LINK = "https://u888h8.com?f=5051627"  # hiện chưa dùng, để sẵn
+REG_LINK = "https://u888h8.com?f=5068024"
+WEBAPP_LINK = "https://u888h8.com?f=5068024"  # hiện chưa dùng, để sẵn
 
 # Cấu hình giữ bot "thức"
 ENABLE_KEEP_ALIVE = os.getenv("ENABLE_KEEP_ALIVE", "false").lower() == "true"
@@ -96,7 +96,7 @@ def ask_account_status(chat_id):
     try:
         bot.send_photo(
             chat_id,
-            "AgACAgUAAxkBAAMfaU1a5tH4Vp17yUK9M0MXPVl6A4YAAqcOaxsiZGhW07O4Ox6oOtABAAMCAAN5AAM2BA",
+            "AgACAgUAAxkBAAMZaU1pAuTN06GIa8io6JALwM33V3IAAqMNaxvcyWhWkP8QbtjGmXUBAAMCAAN5AAM2BA",
             caption=text,
             reply_markup=markup
         )
@@ -141,7 +141,7 @@ def callback_handler(call):
         try:
             bot.send_photo(
                 chat_id,
-                "AgACAgUAAxkBAAMhaU1bDunecn4u0fRRZXqKO-ybtuMAAqgOaxsiZGhW1NfOOd7BziQBAAMCAAN5AAM2BA",
+                "AgACAgUAAxkBAAMbaU1pwn4xF66fqQMYuUFcG62Rr6IAAqQNaxvcyWhWMu0TBXYgatUBAAMCAAN5AAM2BA",
                 caption=text,
                 reply_markup=markup
             )
@@ -165,7 +165,7 @@ def ask_for_username(chat_id):
     try:
         bot.send_photo(
             chat_id,
-            "AgACAgUAAxkBAAMjaU1bQZPBfya6mA55Wnh5w7WZg1EAAqkOaxsiZGhW1_IcyZuBAQMBAAMCAAN5AAM2BA",
+            "AgACAgUAAxkBAAMfaU1p72JgG8kbtE8XhdakAAEi_Nw0AAKnDWsb3MloVm-htifVgTWdAQADAgADeQADNgQ",
             caption=text,
             parse_mode="Markdown"
         )
@@ -240,13 +240,13 @@ def handle_text(message):
             "Mình vào U888 lên vốn theo mốc để nhận khuyến mãi giúp em nhé.\n"
             "Lên thành công mình gửi *ảnh chuyển khoản* để em cộng điểm trực tiếp vào tài khoản cho mình ạ.\n\n"
             "Có bất cứ thắc mắc gì nhắn tin trực tiếp cho CSKH U888:\n"
-            "👉 [Trọng Đức CSKH U888](https://t.me/trongducbcr3979)\n"
+            "👉 [Lan Lan CSKH U888](https://t.me/lanlan2468)\n"
         )
 
         try:
             bot.send_photo(
                 chat_id,
-                "AgACAgUAAxkBAAMlaU1bXkLj5Yo_QCa9VywG9olaHP0AAvcNaxu4D2hWy9CbAt7vbGABAAMCAAN5AAM2BA",
+                "AgACAgUAAxkBAAMdaU1p2EF1BAQTJz06A9DRQHFSAAHLAAKmDWsb3MloVuZGYlbmHBU-AQADAgADeQADNgQ",
                 caption=reply_text,
                 parse_mode="Markdown"
             )
