@@ -13,8 +13,8 @@ from flask import Flask, request
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 ADMIN_CHAT_ID = int(os.getenv("ADMIN_CHAT_ID", "0"))
 
-REG_LINK = "https://u888h8.com?f=5068024"
-WEBAPP_LINK = "https://u888h8.com?f=5068024"  # hiện chưa dùng, để sẵn
+REG_LINK = "https://u888h8.com/?f=5051634"
+WEBAPP_LINK = "https://u888h8.com/?f=5051634"  # hiện chưa dùng, để sẵn
 
 # Cấu hình giữ bot "thức"
 ENABLE_KEEP_ALIVE = os.getenv("ENABLE_KEEP_ALIVE", "false").lower() == "true"
